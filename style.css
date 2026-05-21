@@ -101,6 +101,26 @@ body {
     display: block;
 }
 
+.nav-tools{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    background: #252525;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    background: var(--accent-color);
+}
+
 /* --- Action Bar & Search --- */
 .action-bar {
     display: flex;
@@ -377,3 +397,26 @@ tr:hover {
 .dropdown-content a.logout-link:hover {
     background-color: rgba(255, 77, 77, 0.1);
 }
+
+.btn-restok{
+    background: #ffc107;
+    color: black;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-restok:hover{
+    background: #e0a800;
+}
+
+.expired{
+    background-color: #ffb3b3;
+}
+
+.stok-habis{
+    background-color: #ffe0b3;
+}
+
